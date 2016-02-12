@@ -1,1 +1,2 @@
 UnBundle 'spf13/PIV'
+Plugin 'vim-airline/vim-airline-themes'
