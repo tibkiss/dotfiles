@@ -1,0 +1,6 @@
+autodetach on
+startup_message off
+defscrollback 30000
+caption always "%{= kw}%?%-Lw%?%{+b kw}%n*%t%f %?(%u)%?%{= kw}%?%+Lw%? [%h]%?"
+hardstatus alwayslastline "%{+b kr}[ %H ] %{ky} Load: %l %-=%{kb} %c  %d.%m.%Y"
+

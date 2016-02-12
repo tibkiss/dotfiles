@@ -1,0 +1,43 @@
+set background=dark
+" let g:solarized_visibility = "high"
+" let g:solarized_contrast = "high"
+" colorscheme solarized
+
+colorscheme molokai
+
+" Disable tinggg.wav
+set noerrorbells visualbell t_vb=
+
+" Split above and to the right of the current window
+set nosplitbelow
+set splitright
+
+" New entry in the log
+" map! <C-k> - <<C-R>=strftime("%Y-%m-%d %H:%M (%a)")<CR>>
+
+" Disable auto complete in neocomplcache
+let g:neocomplete#disable_auto_complete = 0
+inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
+
+" Disable folding
+set nofoldenable
+set foldmethod=manual
+
+" Red underline on spell checking errors
+" hi clear SpellBad
+" hi SpellBad cterm=underline ctermfg=red
+hi clear SpellBad
+hi SpellBad cterm=underline ctermfg=red gui=undercurl guisp=#FF0000
+
+" pymode plugin related parameters
+let g:pymode_options_max_line_length = 120
+let g:pymode_options_colorcolumn = 1
+let g:pymode_indent = 1
+let g:pymode_folding = 0
+let g:pymode_virtualenv = 1
+let g:pymode_lint_config = '$HOME/pylint.rc'
+
+" Disable tab highlight
+let g:indent_guides_enable_on_vim_startup = 0
+
+nnoremap <Leader>t 
