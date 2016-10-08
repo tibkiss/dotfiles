@@ -13,4 +13,3 @@ UnBundle 'rust-lang/rust.vim'
 UnBundle 'scrooloose/syntastic'
 
 Plugin 'airblade/vim-gitgutter'
-Plugin 'vim-airline/vim-airline-themes'
