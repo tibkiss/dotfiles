@@ -46,5 +46,8 @@ set clipboard=unnamed
 let g:syntastic_check_on_wq = 0
 
 set tabstop=4
+set softtabstop=4
 set shiftwidth=4
 set expandtab
+set list!
+
