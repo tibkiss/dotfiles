@@ -93,3 +93,4 @@ colors
 alias k='kubectl '
 
 export GOPATH=~/workspace/goenvs/
+export GO111MODULE=on
